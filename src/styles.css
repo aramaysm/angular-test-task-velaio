@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+.w-5{
+    width: 50%;
+}
+.w-full{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.gap-1{
+    gap: 10px;
+}
+
+.btn-primary{
+    background-color: #045dd1;
+    height: 30px;
+    border-radius: 7px;
+    color: #ffffff;
+    border: none;
+    box-shadow: #bfdbff 1px 2px;
+}
+
+.btn-secondary{
+    background-color: #5c5c5c;
+    height: 30px;
+    border-radius: 7px;
+    color: #ffffff;
+    border: none;
+    box-shadow: #bfdbff 1px 2px;
+}
+
+.shadow{
+    box-shadow: #aaaaaa 1px 2px;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.border{
+    border: 1px solid gray;
+}
+
+.p-1{
+    padding: 10px ;
+}
